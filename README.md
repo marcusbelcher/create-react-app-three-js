@@ -15,9 +15,9 @@ The instructions are the same commands typical with create-react-app
 - `yarn start`
 - Go to `http://localhost:3000/`
 - Go to `http://localhost:3000/css` to play with the CSS renderer, or `http://localhost:3000/webgl` to see the WebGL implementation
-- `yarn build` to see the exported distribution
 
 ### Build
+- `yarn build` to see the exported distribution
 - `cd build`
 - `http-server` (npm install -g http-server)
 - Go to `http://127.0.0.1:3000/` to see the distribution being served
