@@ -1,3 +1,6 @@
+import "../node_modules/three/build/three.min.js";
+import "../node_modules/three/examples/js/renderers/CSS3DRenderer.js";
+
 import React from "react";
 import ReactDOM from "react-dom";
 

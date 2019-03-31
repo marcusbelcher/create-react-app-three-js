@@ -3,6 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 const divStyle = {
+  position: "relative",
   padding: "1em"
 };
 

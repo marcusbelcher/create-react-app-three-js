@@ -10,8 +10,9 @@
     "three": "^0.103.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "copyThree": "ncp './node_modules/three/build/three.min.js' './public/js/three.min.js' && ncp './node_modules/three/examples/js/renderers/CSS3DRenderer.js' './public/js/CSS3DRenderer.js'",
+    "start": "yarn copyThree && react-scripts start",
+    "build": "yarn copyThree && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -23,5 +24,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "ncp": "^2.0.0"
+  }
 }

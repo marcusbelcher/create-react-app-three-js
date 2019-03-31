@@ -22,3 +22,5 @@ The instructions are the same commands typical with create-react-app
 - `http-server` (npm install -g http-server)
 - Go to `http://127.0.0.1:3000/` to see the distribution being served
 
+## Reading materials
+- https://facebook.github.io/create-react-app/docs/using-the-public-folder
