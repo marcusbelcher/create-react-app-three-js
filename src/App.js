@@ -1,12 +1,13 @@
 import React, { Component } from "react";
+import { BrowserRouter } from "react-router-dom";
 import Main from "./components/Main";
 
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <BrowserRouter>
         <Main />
-      </React.Fragment>
+      </BrowserRouter>
     );
   }
 }
