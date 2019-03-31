@@ -19,6 +19,6 @@ The instructions are the same commands typical with create-react-app
 
 ### Build
 - `cd build`
-- `http-server`
+- `http-server` (npm install -g http-server)
 - Go to `http://127.0.0.1:3000/` to see the distribution being served
 
